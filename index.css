@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    padding: 10px;
+    font-family: sans-serif;
+    min-width: 400px;
+    background-color: #000;
+}
+input{
+    width: 100%;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    border: 1px solid rgb(206, 203, 203);
+    border-radius: 4px;
+    background-color: #333;
+    color: #fff;
+}
+button{
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: rgb(20, 220, 47);
+    margin-top: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+button:hover{
+    box-shadow: 2px 2px 4px 0px rgba(0,0,0,0.1);
+}
+.btn-add-tab{
+    background-color: crimson;
+    color: #fff;
+}
+.btn-delete{
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid crimson;
+}
+ul{
+    margin-top: 10px;
+    list-style: none;
+    padding: 0;
+}
+ul li{
+    margin-top: 5px;
+}
+ul li a{
+    background-color: #333;
+    padding: 5px 15px;
+    display: block;
+    color: #ddd;
+    border-radius: 4px;
+    text-decoration: none;
+}
+ul li a:hover{
+    color: #fff;
+    background-color: #444;
+}
